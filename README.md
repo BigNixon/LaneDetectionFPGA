@@ -20,7 +20,7 @@ Enter the C-files folder and run the C code with the following command:
 
 The hough transform maps a point in the X-Y coordinates to the Rho-Theta parameter space, where each point transforms into a sinusoid. Each intersection of n sinusoids tell us that this N edges belongs to the same lane.
 
-** ALGORITHM **
+**ALGORITHM**
 - Limit the region of interest of the edged image.
 - Map each pixel wich is an edge to the rho-theta parameter space.
 - Accumulate all the intersections of the sinusoid.
