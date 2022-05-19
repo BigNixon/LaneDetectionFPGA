@@ -25,5 +25,3 @@ The hough transform maps a point in the X-Y coordinates to the Rho-Theta paramet
 - Map each pixel wich is an edge to the rho-theta parameter space.
 - Accumulate all the intersections of the sinusoid.
 - Detect the larger values of the acumulator (this are our lines).
-
-[![Hough Transform](Hough Transform "Hough Transform")](https://sbme-tutorials.github.io/2021/cv/images/hough_deriving-rho.png "Hough Transform")
